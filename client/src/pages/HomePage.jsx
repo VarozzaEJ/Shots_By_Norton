@@ -11,6 +11,9 @@ export default function HomePage() {
       <div className=" flex flex-col h-screen min-h-screen justify-center text-3xl items-center">
         <ContactForm />
       </div>
+      <Link to={"Help"}>
+        <Button>Link to Help page test.</Button>
+      </Link>
     </>
   );
 }

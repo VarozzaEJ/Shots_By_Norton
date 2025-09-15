@@ -10,6 +10,8 @@ export default function ContactForm() {
     //NOTE access key needs to be created by Eli so emails are sent to his inbox.
 
     formData.append("access_key", "e5fc44f0-7e34-4230-a281-a8d55afec682");
+    // Eli's Email access key below
+    // formData.append("access_key", "4271fcaa-54a4-46d6-a45a-0f5f-f92235aO");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
